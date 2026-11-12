@@ -16,15 +16,16 @@ Ce dépôt contient mes exercices et mes scripts de test pour suivre le cours de
 
 2. Installer les dépendances :
 
-
-pip install openai python-dotenv
+    ```bash
+    pip install openai python-dotenv
 
 
 3. Créer un fichier .env.local à la racine du projet et y ajouter ta clé API :
 
 ### Extrait de code
 
-GEMINI_API_KEY=ton_clé_api_ici
+    ```bash
+    GEMINI_API_KEY=ton_clé_api_ici
 
 ### Structure du projet
 
@@ -37,4 +38,5 @@ Se placer dans le dossier de la partie souhaitée et lancer le script :
 
 ### Bash
 
-python main.py
+    ```bash
+    python main.py
